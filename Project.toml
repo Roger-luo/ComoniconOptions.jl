@@ -1,7 +1,7 @@
 name = "ComoniconOptions"
 uuid = "a25bc8ac-9d24-42b2-8edd-3d267ec19fc5"
 authors = ["Roger-Luo <rogerluo.rl18@gmail.com> and contributors"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 Configurations = "5218b696-f38b-4ac9-8b61-a12ec717816d"
