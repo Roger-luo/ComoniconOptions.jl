@@ -49,7 +49,9 @@ function read_toml(mod::Module)
 end
 
 function has_comonicon_toml(m::Module)
-    !isnothing(find_comonicon_toml(pkgdir(m)))
+    path = pkgdir(m)
+    isnothing(path) && return false
+    !isnothing(find_comonicon_toml(path))
 end
 
 """

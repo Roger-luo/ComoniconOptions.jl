@@ -26,3 +26,7 @@ using Test
         ),
     )
 end
+
+@testset "has_comonicon_toml" begin
+    @test ComoniconOptions.has_comonicon_toml(Main) == false
+end
